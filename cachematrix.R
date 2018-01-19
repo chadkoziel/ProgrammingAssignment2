@@ -1,9 +1,10 @@
 setwd("C:/Users/chad.koziel/Documents/GitHub/ProgrammingAssignment2")
 
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+# this function creates a list containing a function to:
+# set the value of the list
+# get the value of the list
+# set the value of the inverse
+# get the value of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
      inverse <- NULL
@@ -20,7 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+# this function checks to see if the inverse has been calculated, if so, it retrieves inverse from cache.
+# otherwise, it calculates the inverse and sets the inverse in the cache
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
